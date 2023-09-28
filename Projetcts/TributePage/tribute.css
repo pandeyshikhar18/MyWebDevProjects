@@ -1,0 +1,113 @@
+html {
+    font-size: 10px;
+  }
+  
+  body {
+    font-family: 'Courier New', monospace;
+    font-size: 1.8rem;
+    line-height: 1.6;
+    text-align: center;
+    color: #453729; 
+    background-color: #f5e5c0; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 4.5rem;
+    margin-bottom: 0;
+    color: #6b4f3e;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (max-width: 460px) {
+    h1 {
+      font-size: 3.5rem;
+    }
+  }
+  
+  h2 {
+    font-size: 3.5rem;
+    color: #6b4f3e;
+  }
+  
+  a {
+    color: #854b32; 
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #ae6b4e; 
+  }
+  
+  #main {
+    margin: 30px 8px;
+    padding: 20px;
+    border: 2px solid #8d735f; 
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 460px) {
+    #main {
+      margin: 10px;
+    }
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    border: 4px solid #8d735f;
+    border-radius: 5px;
+  }
+  
+  #img-div {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #img-caption {
+    margin: 15px 0 5px 0;
+    font-style: italic;
+    color: #6b4f3e; 
+  }
+  
+  @media (max-width: 460px) {
+    #img-caption {
+      font-size: 1.6rem;
+    }
+  }
+  
+  #headline {
+    margin: 50px 0;
+    text-align: center;
+    color: #6b4f3e;
+  }
+  
+  ul {
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.8;
+    list-style-type: square;
+    color: #453729; 
+  }
+  
+  li {
+    margin: 12px 0;
+  }
+  
+  blockquote {
+    font-style: italic;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    text-align: center;
+    color: #6b4f3e; 
+  }
+  
